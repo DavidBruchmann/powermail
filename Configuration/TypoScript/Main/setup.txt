@@ -978,6 +978,8 @@ plugin.tx_powermail {
 	settings.setup {
 		styles {
 			numberOfColumns = {$plugin.tx_powermail.settings.styles.framework.numberOfColumns}
+			
+			bootstrap.important = 0
 
 			framework {
 				rowClasses = {$plugin.tx_powermail.settings.styles.framework.rowClasses}
